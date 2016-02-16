@@ -1,0 +1,82 @@
+body{
+	background-color: #fff;
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	margin:0px;
+}
+h1 {
+	color: #333333;
+	text-transform: uppercase;
+}
+p {
+	color: #333333;
+
+
+}
+
+#slogan{
+	color: #1cc1ca;
+	text-transform: uppercase;
+	font-style:italic;
+}
+
+
+div {
+
+}
+
+a:link {
+	color:#b3b3b3;
+	text-transform:lowercase;
+
+}
+
+a:visited {
+	color:#1cc1ca;
+	text-transform:lowercase;
+}
+
+a:hover {
+	color:#1cc1ca;
+	text-transform:uppercase;
+	text-decoration:bold;
+}
+
+#header{
+	text-align:left;
+	line-height: 10%;
+}
+
+#sidebar{
+	align-content: left;
+	width:200px;
+
+}
+
+#header_break{
+	padding:0px;
+	height: 5px;
+	background-color: #333333;
+	border:0px;
+}
+
+.center_content{
+	position: absolute;
+  	width: 500px;
+  	top: 30%;
+  	left: 45%;
+  	margin: -100px 0 0 -150px;
+  	text-align:left;
+  	overflow: inherit;
+}
+
+#contact{
+	text-align:center;
+	text-transform: uppercase;
+	color:#f2f2f2;
+	background-color: #333333;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
