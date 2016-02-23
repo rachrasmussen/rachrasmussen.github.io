@@ -1,11 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700,300|Yanone+Kaffeesatz:700,200);
+
 body{
 	background-color: #fff;
-	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-family: 'roboto', sans-serif;
 	margin:0px;
+	font-weight; thin;
 }
 h1 {
 	color: #333333;
 	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-style:thin;
+	font-size:1.75em;
+	letter-spacing: -2px;
 }
 p {
 	color: #333333;
@@ -16,7 +23,10 @@ p {
 #slogan{
 	color: #1cc1ca;
 	text-transform: uppercase;
-	font-style:normal;
+	font-style:thin;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:1.47em;
+	margin-top: 15px;
 }
 
 
@@ -27,6 +37,7 @@ div {
 a:link {
 	color:#b3b3b3;
 	text-transform:lowercase;
+	font-family:'roboto', sans-serif;
 
 }
 
@@ -43,7 +54,7 @@ a:hover {
 
 #header{
 	text-align:left;
-	line-height: 10%;
+	line-height: 1%;
 }
 
 #sidebar{
@@ -72,6 +83,8 @@ a:hover {
 #contact{
 	text-align:center;
 	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:1em;
 	color:#f2f2f2;
 	background-color: #333333;
 	position: fixed;
