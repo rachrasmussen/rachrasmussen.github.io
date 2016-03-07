@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700,300|Yanone+Kaffeesatz:700,200);
+
+body{
+	background-color: #fff;
+	font-family: 'roboto', sans-serif;
+	margin:0px;
+	font-weight; thin;
+}
+h1 {
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-style:thin;
+	font-size:1.75em;
+	letter-spacing: -2px;
+}
+p {
+	color: #333333;
+
+
+}
+
+#slogan{
+	color: #1cc1ca;
+	text-transform: uppercase;
+	font-style:thin;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:1.47em;
+	margin-top: 15px;
+}
+
+
+div {
+
+}
+
+a:link {
+	color:#b3b3b3;
+	text-transform:lowercase;
+	font-family:'roboto', sans-serif;
+
+}
+
+a:visited {
+	color:#1cc1ca;
+	text-transform:lowercase;
+}
+
+a:hover {
+	color:#1cc1ca;
+	text-transform:uppercase;
+	text-decoration:bold;
+}
+
+header{
+	text-align:left;
+	line-height: 1%;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#sidebar{
+	width:200px;
+	text-align:left;
+	word-wrap: break-word;
+	overflow: inherit;
+	margin-left:20px;
+	left:1%;
+	position:absolute;
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+	
+
+}
+
+.content{
+	position: absolute;
+  	width: 500px;
+  	top: 30%;
+  	left: 45%;
+  	margin: -100px 0 0 -150px;
+  	text-align:left;
+  	overflow: inherit;
+  	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+  	
+}
+
+footer{
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:1em;
+	color:#f2f2f2;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	margin:0px;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+	
+
+nav {
+color:black;
+text-transform:uppercase;
+background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#nav a:link,
+#nav a:visited,
+#nav a:hover {
+   color: black;
+   text-transform:uppercase;
+   text-decoration:none;
+}
