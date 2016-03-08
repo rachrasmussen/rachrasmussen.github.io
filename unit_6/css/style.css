@@ -20,19 +20,64 @@ p {
 
 }
 
+#logo{
+	margin:.5% 0% .25% .25%;
+	float:left;
+}
+
+img {
+	display:block;
+	height:37px;
+}
+
 #slogan{
 	color: #1cc1ca;
 	text-transform: uppercase;
 	font-style:thin;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size:1.47em;
-	margin-top: 15px;
+	margin-top: 1%;
 }
 
 
-div {
-
+#head_wrapper {
+float:left;
+background-color: #f2f2f2;
+width:100%;
 }
+
+#content_wrapper{
+	float:left;
+	clear:both;
+}
+
+nav {
+	color:black;
+	text-transform:uppercase;
+    border: 1px black solid;
+    float:left;
+    margin-left:10%;
+}
+
+nav a:link,
+nav a:visited{
+   color: black;
+   text-transform:uppercase;
+   text-decoration:none;
+   margin:2%;
+}
+
+nav a:hover{
+	color:#1cc1ca;
+	text-transform:uppercase;
+    text-decoration:none;
+}
+
+nav h1{
+	font-size:130%;
+}
+
+
 
 a:link {
 	color:#b3b3b3;
@@ -55,36 +100,40 @@ a:hover {
 header{
 	text-align:left;
 	line-height: 1%;
-	background-color: #FFED74;
     border: 1px black solid;
-    padding: 20px;
+	margin:-.25% .25% .25% .25%;
+    float:left;
+    clear:none;
 }
 
 #sidebar{
-	width:200px;
+	width:17%;
+	height:65%;
 	text-align:left;
 	word-wrap: break-word;
 	overflow: inherit;
-	margin-left:20px;
-	left:1%;
+	margin:1% 5% 0% 3%;
 	position:absolute;
-	background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
     clear:both;
 	
+}
 
+#sidebar img{
+	height:200px;
+	position:50%;
 }
 
 .content{
 	position: absolute;
-  	width: 500px;
-  	top: 30%;
-  	left: 45%;
+  	width: 60%;
+  	height:65%;
+  	top: 28%;
+  	left: 40%;
   	margin: -100px 0 0 -150px;
   	text-align:left;
   	overflow: inherit;
-  	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
   	
@@ -100,24 +149,16 @@ footer{
 	bottom:0;
 	width:100%;
 	margin:0px;
-	background-color: #FF957E;
+	background-color: #333;
     border: 1px black solid;
     padding: 20px;
 }
 	
-
-nav {
-color:black;
-text-transform:uppercase;
-background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#nav a:link,
-#nav a:visited,
-#nav a:hover {
-   color: black;
-   text-transform:uppercase;
-   text-decoration:none;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
