@@ -257,6 +257,9 @@ nav{
 	#sidebar{
 		display:none;
 	}
+	#sidebar_mobile{
+		display:none;
+	}
 	.content{
 		width:90%;
 		height:45%;
