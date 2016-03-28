@@ -264,4 +264,7 @@ nav{
 		font-size:1em;
 		overflow:scroll;
 	}
+	footer{
+		display:none;
+	}
 }
